@@ -1,0 +1,48 @@
+.reg{
+    width: 700px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: rgb(37, 94, 192);
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    .register{
+
+
+        h2{
+            font-size: 35px;
+            text-align: center;
+        }
+        .name{
+            font-size: 20px;
+            padding: 10px;
+            color: white;
+        }
+        .sur{
+            font-size: 20px;
+            padding: 10px;  
+            color: white;          
+        }
+        .email{
+            font-size: 20px;
+            padding: 10px;
+            color: white;
+        }
+        .pass{
+            font-size: 20px;
+            padding: 10px;
+            color: white;
+        }
+        .buttn{
+            text-align: center;
+            button{
+                color: black;
+                font-size: 15px;
+                border: 0;
+                padding: 10px;
+                background-color: white;
+                border-radius: 10px;            
+            }
+        }
+    }
+}

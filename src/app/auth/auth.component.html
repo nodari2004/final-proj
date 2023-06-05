@@ -1,0 +1,24 @@
+<div class="reg">
+    <div class="register">
+        <h2>sign up</h2>
+        <div class="name">
+            <label for="">name</label><br>
+            <input type="text" #Name>
+        </div>
+        <div class="sur">
+            <label for="">surname</label><br>
+            <input type="text" #Surname>
+        </div>
+        <div class="email">
+            <label for="">Email</label><br>
+            <input type="text" #emailSignup>
+        </div>
+        <div class="pass">
+            <label for="">Password</label><br>
+            <input type="text" #passwordSignup>
+        </div>
+        <div class="buttn">
+            <button (click)="onSignup(emailSignup.value,passwordSignup.value,Name.value,Surname.value)">Sign Up</button>
+        </div>
+    </div>
+</div>
